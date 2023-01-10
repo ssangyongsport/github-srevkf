@@ -2,7 +2,7 @@ name: DocSearch Crawler
 
 on:
   schedule:
-    - cron: "0 0 * * *" # It runs once a day, every day at 12:00AM UTC
+    - cron: "0 0 * * *" # It runs once a day, every day at 12:00AM UTC 
   push:
     branches:
       - main
